@@ -2,7 +2,7 @@ import sys
 
 def addition(value1, value2):
     if not isinstance(value1, int) and not isinstance(value2, int):
-        print('Invalid input')
+        print('Invalid input!')
         return 'Invalid input'
     else:
         print('value1 + value2 = ', value1 + value2)
